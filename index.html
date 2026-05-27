@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Marc Hummel — Work Samples</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fafaf7;
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --rule: #e5e3dc;
+    --accent: #1f4736;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 80px 28px 120px;
+  }
+  header {
+    margin-bottom: 72px;
+  }
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 18px;
+  }
+  h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin: 0 0 18px;
+  }
+  .lede {
+    color: var(--muted);
+    font-size: 19px;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 560px;
+  }
+  section {
+    margin-bottom: 56px;
+  }
+  h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: -0.01em;
+    margin: 0 0 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--rule);
+  }
+  h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 32px 0 12px;
+  }
+  ol {
+    margin: 0 0 24px;
+    padding-left: 22px;
+  }
+  ol li {
+    margin-bottom: 10px;
+    color: #2a2a2a;
+  }
+  ul {
+    margin: 0 0 24px;
+    padding-left: 22px;
+  }
+  li {
+    margin-bottom: 8px;
+    color: #2a2a2a;
+  }
+  li em {
+    font-style: italic;
+  }
+  p {
+    margin: 0 0 18px;
+    color: #2a2a2a;
+  }
+  .pdf-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.15s ease;
+  }
+  .pdf-link:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+  }
+  .pdf-link svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+  footer {
+    margin-top: 96px;
+    padding-top: 32px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 14px;
+  }
+  footer a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 600px) {
+    .container { padding: 56px 22px 80px; }
+    h1 { font-size: 34px; }
+    h2 { font-size: 24px; }
+    .lede { font-size: 17px; }
+    body { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="eyebrow">Leave-behind</div>
+      <h1>A few work samples</h1>
+      <p class="lede">Thanks for the conversation. Here are a few pieces I mentioned, with a little context on each.</p>
+    </header>
+
+    <section>
+      <h2>Case study</h2>
+      <ul>
+        <li>I made this while at YouVisit (virtual tours).</li>
+        <li>It shows how our client Pilot Flying J (truck stop chain) used our product to aid their recruiting efforts.</li>
+        <li>I like how this reads like a product brochure — nice and visual.</li>
+      </ul>
+      <a class="pdf-link" href="Case_Study_Pilot_Flying_J.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        View PDF
+      </a>
+    </section>
+
+    <section>
+      <h2>Sales enablement</h2>
+      <ul>
+        <li>SwipeSimple Connect was our direct-to-merchant GTM motion.</li>
+        <li>SwipeSimple Connect <em>Zero</em> was our zero-fee offering.</li>
+        <li>This brochure explains the details of the program.</li>
+        <li>I think it does a nice job explaining the minutiae while keeping it simple for the merchant.</li>
+      </ul>
+      <a class="pdf-link" href="SwipeSimple-Connect.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        View PDF
+      </a>
+    </section>
+
+    <section>
+      <h2>LinkedIn Ads</h2>
+
+      <h3>Reporting</h3>
+      <p>The biggest two things I learned about running B2B ads on LinkedIn are:</p>
+      <ol>
+        <li><strong>Frequency and Reach metrics.</strong> When doing ABM-type campaigns, LinkedIn tends to blast your audience with the same ad unless you put safeguards around it. We found that this happened a lot when our target audiences were relatively small. Balancing frequency and reach means you can get more impressions from the right people and utilize your budget effectively.</li>
+        <li><strong>Delivery reporting.</strong> This is where you can see the job titles, functions, and companies that make up your impressions. Super useful for making tweaks to targeting if a company or job function is over-represented.</li>
+      </ol>
+
+      <h3>Content types</h3>
+      <p>At CardFlight, we experimented with many different types of sponsored content to promote our thought leadership content. Each type supported a specific awareness goal.</p>
+      <ul>
+        <li><strong>Sponsored posts:</strong> Promote "organic" LinkedIn posts from our execs sharing timely news, company updates, new product releases, etc.</li>
+        <li><strong>Native video:</strong> Primary metric was % viewed; used for webinars, thought leadership videos.</li>
+        <li><strong>Lead-gen forms:</strong> Native-to-LinkedIn forms for gated content. Used for thought leadership and white papers.</li>
+      </ul>
+    </section>
+
+    <footer>
+      Marc Hummel &middot; <a href="mailto:hey@marchummel.com">hey@marchummel.com</a>
+    </footer>
+  </div>
+</body>
+</html>
